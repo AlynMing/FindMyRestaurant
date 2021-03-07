@@ -11,24 +11,16 @@
 
 ### Description
 
-This app helps groups of friends find a restaurant when they cannot agree on one.
-Once setting a radius of restaurants, each friend gets one veto based on restaurant genre.
-After accepting the terms to the "no-backsies" agreement, a restaurant is chosen that is within the radius and does not violate the vetos.
+
 
 ### App Evaluation
 
 - **Category:**
-  Restaurant, Food
 - **Mobile:**
-  This app is mainly meant for mobile users as it is supposed to be accessible no matter where you are.
 - **Story:**
-  Analyzes users food and restaurant choices and analyzes them to find the perfect restaurant that fits everyones' demands.
 - **Market:**
-  Anyone can use this app. For instance, if you are planning a family dinner, or want to go out with a group of friends.
 - **Habit:**
-  Friends who are trying to find a place to eat.
 - **Scope:**
-  Young adults.
 
 ## Product Spec
 
@@ -99,20 +91,12 @@ End screen
 
 ## Final Demo
 
-<img src="https://i.imgur.com/REBVGqt.gif" width=250><img src="https://i.imgur.com/HqCg1hS.gif" width=250>
-
 ## Schema
 
 ### Models
 
-- <b>Session</b>(<u>id</u>, userCount, canVote)
-- <b>Category</b>(<u>sessionId</u>, <u>categoryId</u>, name, pluralName, shortName, iconURL)
-- <b>Vote</b>(<u>sessionId</u>, <u>categoryId</u>)
-- <b>Restaurant</b>(<u>sessionId</u>, <u>venue</u>)
+
 
 ### Networking
 
 #### FourSqaure API
-
-- GET https://api.foursquare.com/v2/venues/search
-- GET https://api.foursquare.com/v2/venues/VENUE_ID
